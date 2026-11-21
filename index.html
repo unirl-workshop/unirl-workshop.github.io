@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en" data-status="proposed">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>UniRL | Reinforcement Learning for Unified Multimodal Models · ICME 2027</title>
+  <meta name="description" content="UniRL: Rewarding Models That See, Taste and Create. A proposed ICME 2027 workshop on RL algorithms, rewards, and reliable evaluation for unified multimodal models.">
+  <meta name="theme-color" content="#0b6475">
+  <meta property="og:title" content="UniRL · Reinforcement Learning for Unified Multimodal Models">
+  <meta property="og:description" content="Rewarding Models That See, Taste and Create. Proposed for IEEE ICME 2027 in Xiamen, China.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/fonts/gabarito.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/source-sans-3.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="assets/site.css">
+  <script src="assets/site.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#about">Skip to content</a>
+<header class="nav-bar">
+  <a class="brand" href="#top" aria-label="UniRL home"><svg width="28" height="30" viewBox="0 0 28 30" aria-hidden="true"><path d="M5 5v12a9 9 0 0 0 18 0V5" fill="none" stroke="currentColor" stroke-width="4.5" stroke-linecap="round"/><circle cx="23" cy="5" r="4" fill="#e5a719"/></svg>UniRL<span class="brand-year">2027</span></a>
+  <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="section-nav" hidden><span>Menu</span><svg width="20" height="18" viewBox="0 0 20 18" aria-hidden="true"><path d="M1 3h18M1 9h18M1 15h18" fill="none" stroke="currentColor" stroke-width="2"/></svg></button>
+  <nav class="nav-links" id="section-nav" aria-label="Main navigation">
+    <a href="#about">About</a><a href="#topics">Topics</a><a href="#speakers">Speakers</a><a href="#program">Program</a><a href="#papers">Call for Papers</a><a href="#dates">Dates</a><a href="#organizers">Organizers</a>
+  </nav>
+</header>
+
+<main>
+<section class="masthead" id="top" aria-labelledby="hero-title">
+  <div class="mast-inner">
+    <div class="mast-copy">
+      <p class="eyebrow">A proposed IEEE ICME 2027 workshop</p>
+      <h1 id="hero-title"><span class="wordmark">UniRL<span class="wordmark-dot">.</span></span><span class="hero-title">Reinforcement Learning for Unified Multimodal Models</span></h1>
+      <p class="tagline">Rewarding Models That<br> See, Taste and Create.</p>
+      <p class="hero-intro">Better policies. Trustworthy rewards.<br> Models that understand and generate together.</p>
+      <div class="actions"><a class="btn btn-primary" href="#papers">Explore the Call for Papers</a><a class="btn btn-outline" href="#program">View Program</a></div>
+    </div>
+    <div class="mast-visual"><img src="assets/feedback-loop.svg" width="620" height="620" alt="A feedback loop links understanding, generation and reward around one unified multimodal model, spanning text, images, video and audio."><p>Can a model be its own reward model?</p></div>
+    <div class="event-strip"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 10c0 5-7 11-7 11S5 15 5 10a7 7 0 1 1 14 0Z"/><circle cx="12" cy="10" r="2.5"/></svg>Xiamen, China</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M7 2v6M17 2v6M3 11h18"/></svg>July 13–17, 2027<span class="strip-note">ICME dates</span></span><span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 6v6l4 3"/></svg>Half-day workshop<span class="strip-note">Exact slot TBA</span></span></div>
+  </div>
+</section>
+
+<div class="proposal-notice"><div><strong>Workshop proposal · acceptance pending</strong><p>The program and invited-speaker lineup are tentative. The workshop decision is scheduled for December 14, 2026.</p></div><a href="https://2027.ieeeicme.org/authors/workshop-proposals" rel="noopener">ICME workshop information</a></div>
+
+<section class="section" id="about" aria-labelledby="about-title">
+  <div class="section-head"><p class="section-kicker">The workshop</p><h2 id="about-title">One model.<br> Shared progress.</h2></div>
+  <div class="body"><p class="lede">Unified multimodal models both understand and generate text, images, video and audio. Reinforcement learning can improve these abilities together, but only if the reward deserves to be trusted.</p><p class="body-copy">UniRL brings together researchers building RL-tuned generative and unified models with the multimedia community studying perceptual quality, audio, speech and evaluation. We ask how to turn a model’s understanding into a useful signal for its generation, and its generation into a learning signal for understanding, without teaching the model to fool its own judge.</p><blockquote class="central-question">How should we design RL so that rewards are trustworthy and gains transfer between understanding and generation?</blockquote><div class="research-questions"><div><h3>What is the policy?</h3><p>Connect discrete text plans with continuous visual and audio trajectories.</p></div><div><h3>Who gives the reward?</h3><p>Align learned and verifiable rewards with human judgments of media quality.</p></div><div><h3>Does RL create synergy?</h3><p>Measure shared improvement beyond a model agreeing with itself.</p></div></div></div>
+</section>
+
+<section class="section" id="topics" aria-labelledby="topics-title">
+  <div class="section-head"><p class="section-kicker">Research scope</p><h2 id="topics-title">Three connected tracks</h2><p>From policy design to reward design to evidence of real progress.</p></div>
+  <div class="body track-grid">
+    <article class="track track-algorithms"><svg class="track-icon" viewBox="0 0 36 36" aria-hidden="true"><path d="M7 9h22M7 27h22M12 9v18M24 9v18"/><circle cx="12" cy="17" r="4"/><circle cx="24" cy="22" r="4"/></svg><p class="track-label">Algorithms</p><h3>RL for unified &amp; generative models</h3><p>Learning across architectures, modalities and generation steps.</p><ul><li>GRPO, PPO, DPO and their variants</li><li>Autoregressive, diffusion, flow, masked and hybrid models</li><li>Exploration and credit assignment</li><li>Joint understanding and generation</li><li>Efficient online RL for image, video and audio</li></ul></article>
+    <article class="track track-rewards"><svg class="track-icon" viewBox="0 0 36 36" aria-hidden="true"><circle cx="18" cy="18" r="13"/><path d="m11 18 5 5 10-11"/></svg><p class="track-label">Rewards</p><h3>Rewards &amp; verifiers</h3><p>Feedback that reflects what people value in generated media.</p><ul><li>Unified and reasoning reward models</li><li>Rubric- and preference-based rewards</li><li>Intrinsic and self-rewarding signals</li><li>Verifiers for counting, OCR and spatial relations</li><li>Perceptual quality, video, audio and speech rewards</li></ul></article>
+    <article class="track track-evaluation"><svg class="track-icon" viewBox="0 0 36 36" aria-hidden="true"><path d="m18 3 12 5v10c0 8-12 15-12 15S6 26 6 18V8Z"/><path d="m12 18 4 4 8-9"/></svg><p class="track-label">Reliability</p><h3>Reliability &amp; evaluation</h3><p>Distinguishing genuine gains from reward exploitation.</p><ul><li>Reward hacking and over-optimization</li><li>Diversity collapse and generation artifacts</li><li>Held-out and human evaluation</li><li>Transfer between understanding and generation</li><li>Benchmarks, safety and provenance</li></ul></article>
+  </div>
+</section>
+
+<section class="section" id="speakers" aria-labelledby="speakers-title">
+  <div class="section-head"><p class="section-kicker">Perspectives</p><h2 id="speakers-title">Proposed keynote speakers</h2><p>Five perspectives spanning RL, visual generation, quality, speech and video understanding.</p><p class="status-note">Invitations and participation are pending confirmation.</p></div>
+  <div class="body"><ul class="speaker-list">
+    <li><span class="speaker-monogram" aria-hidden="true">SL</span><div><h3>Sergey Levine</h3><p class="affiliation">UC Berkeley &amp; Physical Intelligence</p><p>Reinforcement learning for generative models</p></div></li>
+    <li><span class="speaker-monogram" aria-hidden="true">PW</span><div><h3>Pengfei Wan</h3><p class="affiliation">Kuaishou · Kling</p><p>RL for visual generation and reward robustness</p></div></li>
+    <li><span class="speaker-monogram" aria-hidden="true">WL</span><div><h3>Weisi Lin</h3><p class="affiliation">Nanyang Technological University</p><p>Perceptual quality and human-aligned rewards</p></div></li>
+    <li><span class="speaker-monogram" aria-hidden="true">HL</span><div><h3>Hung-yi Lee</h3><p class="affiliation">National Taiwan University</p><p>Spoken language models and audio evaluation</p></div></li>
+    <li><span class="speaker-monogram" aria-hidden="true">CS</span><div><h3>Cordelia Schmid</h3><p class="affiliation">Inria &amp; Google</p><p>Video understanding and video-language models</p></div></li>
+  </ul><div class="rising-stars"><h3>Proposed rising-star talks</h3><p>Four short talks highlighting emerging work in the field. Participation is pending confirmation.</p><ul><li><strong>Jie Liu</strong><span>Flow-GRPO</span></li><li><strong>Yibin Wang</strong><span>UnifiedReward</span></li><li><strong>Dongzhi Jiang</strong><span>T2I-R1</span></li><li><strong>Hongzhan Lin</strong><span>Speech–text alignment &amp; multimodal critique</span></li></ul></div></div>
+</section>
+
+<section class="section" id="program" aria-labelledby="program-title">
+  <div class="section-head"><p class="section-kicker">An afternoon of exchange</p><h2 id="program-title">Tentative program</h2><p>A four-hour, in-person workshop. The date and time slot will be assigned by ICME.</p><p class="timezone">All times below are local to Xiamen (UTC+8).</p></div>
+  <div class="body"><table class="schedule"><caption class="visually-hidden">Proposed afternoon schedule, subject to the assigned ICME workshop slot</caption><thead><tr><th scope="col">Time</th><th scope="col">Session</th></tr></thead><tbody>
+    <tr><th scope="row">13:30–13:40</th><td><strong>Opening remarks</strong><span>Introducing UniRL and its central questions</span></td></tr>
+    <tr><th scope="row">13:40–14:20</th><td><strong>Keynotes 1–2</strong><span>RL algorithms and reliable visual generation</span></td></tr>
+    <tr><th scope="row">14:20–14:50</th><td><strong>Contributed-paper spotlights</strong><span>Six papers · five minutes each</span></td></tr>
+    <tr class="break"><th scope="row">14:50–15:30</th><td><strong>Coffee &amp; posters</strong><span>Meet the authors and continue the discussion</span></td></tr>
+    <tr><th scope="row">15:30–16:30</th><td><strong>Keynotes 3–5</strong><span>Perceptual quality, speech and audio, video understanding</span></td></tr>
+    <tr class="panel-row"><th scope="row">16:30–17:00</th><td><strong>Panel discussion</strong><span>“Can a model be its own reward model?”</span></td></tr>
+    <tr><th scope="row">17:00–17:20</th><td><strong>Rising-star talks</strong><span>Four early-career researchers · five minutes each</span></td></tr>
+    <tr><th scope="row">17:20–17:30</th><td><strong>Best Paper award &amp; closing</strong><span>Award arrangements to be confirmed</span></td></tr>
+  </tbody></table></div>
+</section>
+
+<section class="panel-feature" aria-labelledby="panel-title"><div class="panel-inner"><p class="eyebrow">The panel question</p><h2 id="panel-title">Can a model be its<br> own reward model?</h2><p>Self-reward can connect understanding and generation.<br> When does that become learning, and when does it become self-agreement?</p><a class="text-link" href="#program">Part of the proposed afternoon program</a><svg class="panel-loop" viewBox="0 0 240 240" aria-hidden="true"><circle cx="120" cy="120" r="91"/><circle cx="120" cy="120" r="59"/><circle class="loop-node" cx="120" cy="29" r="14"/><circle class="loop-node" cx="199" cy="166" r="14"/><circle class="loop-node" cx="41" cy="166" r="14"/></svg></div></section>
+
+<section class="section" id="papers" aria-labelledby="papers-title">
+  <div class="section-head"><p class="section-kicker">Contribute to UniRL</p><h2 id="papers-title">Call for Papers</h2><p>Draft call, subject to workshop acceptance and final ICME author guidelines.</p><span class="label">Submissions not yet open</span></div>
+  <div class="body"><p class="lede">We invite research on making RL for generative and unified multimodal models effective, trustworthy and synergistic.</p><p class="body-copy">Contributions may address any of the three research tracks, including reasoning-driven generation and editing, interleaved outputs, multimodal reward modeling, reward robustness, evaluation and online RL efficiency.</p><div class="submission-details"><div><h3>Paper format</h3><p>Regular research papers in the ICME 2027 workshop format. The page limit, author instructions and proceedings details will be announced once confirmed.</p></div><div><h3>Review process</h3><p>The proposed process is double-blind review on OpenReview, with at least three reviews per paper. A non-conflicted senior organizer will handle submissions involving an organizer.</p></div><div><h3>Presentation</h3><p>Accepted work will be presented as posters, with the six highest-rated papers selected for five-minute spotlights.</p></div></div><div class="submission-callout"><div><p class="section-kicker">Paper submission deadline</p><p class="submission-date">April 9, 2027</p><p>The submission portal will be announced after workshop acceptance.</p></div><a class="btn btn-teal" href="#dates">All Important Dates</a></div><p class="source-note">The date follows the <a href="https://2027.ieeeicme.org/authors/workshop-proposals" rel="noopener">ICME 2027 workshop timeline</a>. Final submission instructions and the deadline time zone are to be confirmed.</p></div>
+</section>
+
+<section class="section" id="dates" aria-labelledby="dates-title">
+  <div class="section-head"><p class="section-kicker">Mark your calendar</p><h2 id="dates-title">Important dates</h2><p>Official ICME 2027 milestones. UniRL’s workshop date is awaiting assignment.</p></div>
+  <div class="body"><table class="dates"><caption class="visually-hidden">ICME 2027 workshop milestones</caption><thead><tr><th scope="col">Date</th><th scope="col">Milestone</th></tr></thead><tbody>
+    <tr><th scope="row"><time datetime="2026-12-14">December 14, 2026</time></th><td>Workshop proposal decision</td></tr>
+    <tr class="deadline"><th scope="row"><time datetime="2027-04-09">April 9, 2027</time></th><td>Workshop paper submission</td></tr>
+    <tr><th scope="row"><time datetime="2027-05-05">May 5, 2027</time></th><td>Paper acceptance notification</td></tr>
+    <tr><th scope="row"><time datetime="2027-05-20">May 20, 2027</time></th><td>Camera-ready submission</td></tr>
+    <tr class="event"><th scope="row">July 13–17, 2027</th><td>ICME 2027 · Xiamen, China<span>Exact UniRL workshop slot to be announced</span></td></tr>
+  </tbody></table><p class="source-note">Verified against <a href="https://2027.ieeeicme.org/about/important-dates" rel="noopener">ICME’s official important dates</a> on November 21, 2026. Dates may be updated by the conference.</p></div>
+</section>
+
+<section class="section" id="outcomes" aria-labelledby="outcomes-title">
+  <div class="section-head"><p class="section-kicker">Beyond the workshop</p><h2 id="outcomes-title">A shared standard<br> for progress</h2></div>
+  <div class="body"><p class="lede">The planned outcome is a practical reporting checklist for RL-tuned generators, together with a post-workshop summary of open problems and lessons learned.</p><ul class="checklist" aria-label="Planned reporting checklist topics"><li>Reward model &amp; training signal</li><li>Held-out evaluation</li><li>Output diversity</li><li>Human evaluation</li><li>Compute &amp; online RL cost</li></ul></div>
+</section>
+
+<section class="section organizers-section" id="organizers" aria-labelledby="organizers-title">
+  <div class="section-head"><p class="section-kicker">The team</p><h2 id="organizers-title">Organizers</h2><p>Bringing together unified models, reinforcement learning, perceptual quality, audio and multimedia evaluation.</p><p class="team-note">Team and affiliations are listed as in the proposal and remain subject to final confirmation.</p></div>
+  <div class="body"><h3 class="group-heading">Co-lead organizers</h3><ul class="people leads">
+    <li><img class="photo" src="assets/people/pengfei-zhou.png" alt="Pengfei Zhou" width="320" height="320" loading="lazy"><h4>Pengfei Zhou</h4><p class="affiliation">National University of Singapore &amp; InfRec</p><p class="person-role">Main contact · Technical program<br> RL algorithms</p></li>
+    <li><img class="photo" src="assets/people/sun-jiachen-luo.jpg" alt="Sun Jiachen Luo" width="320" height="320" loading="lazy"><h4>Sun Jiachen Luo</h4><p class="affiliation">Technical University of Munich</p><p class="person-role">Speaker &amp; panel coordination<br> Rewards, audio &amp; speech</p></li>
+    <li><img class="photo" src="assets/people/yeying-jin.jpg" alt="Yeying Jin" width="320" height="320" loading="lazy"><h4>Yeying Jin</h4><p class="affiliation">National University of Singapore &amp; Tencent</p><p class="person-role">Industry relations<br> RL for video generation</p></li>
+  </ul><h3 class="group-heading">Organizing committee</h3><ul class="people committee">
+    <li><img class="photo" src="assets/people/weiqing-min.jpg" alt="Weiqing Min" width="320" height="320" loading="lazy"><h4>Weiqing Min</h4><p class="affiliation">Institute of Computing Technology, Chinese Academy of Sciences</p><p class="person-role">ICME liaison · Reliability &amp; evaluation</p></li>
+    <li><img class="photo" src="assets/people/cong-bai.jpg" alt="Cong Bai" width="320" height="320" loading="lazy"><h4>Cong Bai</h4><p class="affiliation">Zhejiang University of Technology</p><p class="person-role">Video reliability &amp; evaluation</p></li>
+    <li><img class="photo" src="assets/people/hexin-wang.jpg" alt="Hexin Wang" width="320" height="320" loading="lazy"><h4>Hexin Wang</h4><p class="affiliation">InfRec</p><p class="person-role">Industry &amp; sponsorship<br> Self-improving agents</p></li>
+    <li><img class="photo" src="assets/people/suorong-yang.png" alt="Suorong Yang" width="320" height="320" loading="lazy"><h4>Suorong Yang</h4><p class="affiliation">National University of Singapore</p><p class="person-role">Review coordination &amp; website<br> Data quality &amp; evaluation</p></li>
+    <li><img class="photo" src="assets/people/canran-xiao.jpg" alt="Canran Xiao" width="320" height="320" loading="lazy"><h4>Canran Xiao</h4><p class="affiliation">Sun Yat-sen University</p><p class="person-role">Review coordination<br> Data quality &amp; evaluation</p></li>
+  </ul><h3 class="group-heading">Steering committee</h3><ul class="people steering">
+    <li><img class="photo" src="assets/people/patrick-le-callet.webp" alt="Patrick Le Callet" width="320" height="320" loading="lazy"><h4>Patrick Le Callet</h4><p class="affiliation">Nantes Université</p><p class="person-role">Quality models as rewards<br> IEEE TC liaison</p></li>
+    <li><img class="photo" src="assets/people/shuicheng-yan.webp" alt="Shuicheng Yan" width="320" height="320" loading="lazy"><h4>Shuicheng Yan</h4><p class="affiliation">National University of Singapore &amp; Skywork</p><p class="person-role">RL for unified models<br> Industry</p></li>
+    <li><img class="photo" src="assets/people/bjorn-schuller.jpg" alt="Björn W. Schuller" width="320" height="320" loading="lazy"><h4>Björn W. Schuller</h4><p class="affiliation">Technical University of Munich &amp; Imperial College London</p><p class="person-role">Audio &amp; speech rewards</p></li>
+  </ul><p class="source-note">The Technical Program Committee will be announced once confirmed.</p></div>
+</section>
+</main>
+
+<footer class="close" id="contact"><div class="close-inner"><div><a class="brand footer-brand" href="#top">UniRL<span class="footer-dot">.</span></a><p>Reinforcement Learning for<br> Unified Multimodal Models</p></div><div class="contact-block"><h2>Get in touch</h2><p>Main contact: <strong>Pengfei Zhou</strong></p><p>Contact details will be announced with the final call for papers.</p></div><div class="footer-meta"><p>Proposed for <a href="https://2027.ieeeicme.org/" rel="noopener">IEEE ICME 2027</a> · Xiamen, China</p><p>First edition · Workshop acceptance pending</p></div></div></footer>
+</body>
+</html>
