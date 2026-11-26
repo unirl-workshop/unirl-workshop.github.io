@@ -33,3 +33,8 @@ h1,h2,h3,h4,p,ul,ol,blockquote{margin:0;padding:0}ul{list-style:none}img,svg{dis
 @media(prefers-reduced-motion:no-preference){html{scroll-behavior:smooth}.mast-visual img{animation:enter .8s ease-out both}@keyframes enter{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
 @media print{.nav-bar,.actions,.menu-toggle,.mast-visual{display:none!important}.masthead,.panel-feature,.close{background:#fff;color:#122f38}.mast-inner{display:block}.eyebrow,.hero-intro,.tagline,.panel-feature p:not(.eyebrow),.close p,.footer-brand{color:#122f38}.section{break-inside:avoid;display:block;padding:24px 0}.section-head{margin-bottom:15px}.event-strip{color:#122f38}.proposal-notice{width:var(--page)}.people{break-inside:avoid}.footer-meta{border-color:#ccc}a{color:#122f38}}
+
+/* Proposal information update: new organizers and contact details. */
+.person-monogram{display:grid;place-items:center;color:var(--sea);font:650 44px/1 var(--display)}
+.tpc-shortlist{margin-top:24px}
+.contact-block a{color:#d9eced;overflow-wrap:anywhere}
